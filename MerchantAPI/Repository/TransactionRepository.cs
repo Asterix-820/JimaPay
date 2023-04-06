@@ -3,6 +3,7 @@ using MerchantAPI.DTO;
 using MerchantAPI.Model;
 using MerchantAPI.Interfaces;
 using System.Transactions;
+using Microsoft.EntityFrameworkCore;
 
 namespace MerchantAPI.Repository
 {
@@ -16,21 +17,28 @@ namespace MerchantAPI.Repository
             _mapper= mapper;
         }
 
-        public async Task<int> CreateTransaction(TransactionDTO transaction)
+        public async Task<string> CreateTransaction(TransactionDTO transaction, string merchantId)
         {
-            var transactionEntity = _mapper.Map<Transaction>(transaction);
-            _context.Terminals.Add(transactionEntity);
+            var merchantTransaction = await _context.Terminals.FirstOrDefaultAsync(t => t.merchant.MerchantId== merchantId);
+            if (merchantTransaction == null)
+            {
+                return "Invalid Transaction Credentials";
+            }
+
+            var transactionEntity = _mapper.Map<Transactions>(transaction);
+            transactionEntity.terminal = merchantTransaction;
+            _context.Transactions.Add(transactionEntity);
             await _context.SaveChangesAsync();
             return transactionEntity.TransactionId;
         }
 
-        public async Task<TransactionDTO> GetTransaction(int id)
+        public async Task<TransactionDTO> GetTransactionById(string id)
         {
             var transaction = await _context.Transactions.FindAsync(id);
             return _mapper.Map<TransactionDTO>(transaction);
         }
 
-        public async Task<IEnumerable<TransactionDTO>> GetTransactions()
+        public async Task<IEnumerable<TransactionDTO>> GetAllTransactions()
         {
             var transactions =  _context.Transactions.ToList();
             return _mapper.Map<IEnumerable<TransactionDTO>>(transactions);

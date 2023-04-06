@@ -10,7 +10,7 @@ namespace MerchantAPI
         {
             CreateMap<Merchant, MerchantDTO>().ReverseMap();
             CreateMap<Terminal, TerminalDTO>().ReverseMap();
-            CreateMap<Transaction, TransactionDTO>().ReverseMap();
+            CreateMap<Transactions, TransactionDTO>().ReverseMap();
         }
     }
 }

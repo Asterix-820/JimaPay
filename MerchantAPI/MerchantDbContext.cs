@@ -10,6 +10,6 @@ namespace MerchantAPI
         }
         public DbSet<Merchant> Merchants { get; set; }
         public DbSet<Terminal> Terminals { get; set; }
-        public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<Transactions> Transactions { get; set; }
     }
 }

@@ -1,12 +1,16 @@
-﻿namespace MerchantAPI.Model
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace MerchantAPI.Model
 {
     public class Terminal
     {
+       [Key]
         public string TerminalId { get; set; } = Guid.NewGuid().ToString();
-        public string TerminalType { get; set; } = string.Empty;
-        public string Location { get; set; } = string.Empty;
-        public List<Transaction> Transactions { get; set; }
-        public string MerchantId { get; set; }
+        public string TerminalType { get; set; }
+        public string Location { get; set; } 
+        public ICollection<Transactions> Transactions { get; set; }
+        [ForeignKey("MerchantId")]
         public Merchant merchant { get; set; }
     }
 }

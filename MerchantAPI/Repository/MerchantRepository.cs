@@ -16,21 +16,21 @@ namespace MerchantAPI.Repository
             _mapper = mapper;
         }
 
-        public async Task<int> CreateMerchant(MerchantDTO merchant)
+        public async Task<string> CreateNewMerchant(MerchantDTO merchant)
         {
             var merchantEntity = _mapper.Map<Merchant>(merchant);
             _context.Merchants.Add(merchantEntity);
             await _context.SaveChangesAsync();
-            return await merchantEntity.MerchantId;
+            return merchantEntity.MerchantId;
         }
 
-        public async Task<MerchantDTO> GetMerchant(int id)
+        public async Task<MerchantDTO> GetMerchantById(string id)
         {
             var merchant = await _context.Merchants.FindAsync(id);
             return _mapper.Map<MerchantDTO>(merchant);
         }
 
-        public async Task<IEnumerable<MerchantDTO>> GetMerchants()
+        public async Task<IEnumerable<MerchantDTO>> GetAllMerchants()
         {
             var merchants = await _context.Merchants.ToListAsync();
             return _mapper.Map<IEnumerable<MerchantDTO>>(merchants);

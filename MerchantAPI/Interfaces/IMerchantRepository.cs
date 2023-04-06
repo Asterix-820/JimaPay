@@ -4,8 +4,8 @@ namespace MerchantAPI.Interfaces
 {
     public interface IMerchantRepository
     {
-        Task<IEnumerable<MerchantDTO>> GetMerchants();
-        Task<MerchantDTO> GetMerchant(int id);
-        Task<int> CreateMerchant(MerchantDTO merchant);
+        Task<IEnumerable<MerchantDTO>> GetAllMerchants();
+        Task<MerchantDTO> GetMerchantById(string id);
+        Task<string> CreateNewMerchant(MerchantDTO merchant);
     }
 }
