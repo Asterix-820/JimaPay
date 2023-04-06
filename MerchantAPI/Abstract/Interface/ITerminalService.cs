@@ -4,8 +4,8 @@ namespace MerchantAPI.Abstract.Interface
 {
     public interface ITerminalService
     {
-        Task<IEnumerable<TerminalDTO>> GetMerchants();
-        Task<TerminalDTO> GetMerchant(int id);
-        Task<int> CreateMerchant(TerminalDTO terminal);
+        Task<IEnumerable<TerminalDTO>> GeTerminals();
+        Task<TerminalDTO> GetTerminal(int id);
+        Task<int> CreateTerminal(TerminalDTO terminal);
     }
 }

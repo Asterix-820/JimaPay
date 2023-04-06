@@ -4,8 +4,8 @@ namespace MerchantAPI.Abstract.Interface
 {
     public interface ITransactionService
     {
-        Task<IEnumerable<TransactionDTO>> GetMerchants();
-        Task<TransactionDTO> GetMerchant(int id);
-        Task<int> CreateMerchant(TransactionDTO transaction);
+        Task<IEnumerable<TransactionDTO>> GetTransactions();
+        Task<TransactionDTO> GetTransaction(int id);
+        Task<int> CreateTransaction(TransactionDTO transaction);
     }
 }
