@@ -40,8 +40,14 @@ namespace MerchantAPI.Repository
 
         public async Task<IEnumerable<TransactionDTO>> GetAllTransactions()
         {
-            var transactions =  _context.Transactions.ToList();
+            var transactions = await  _context.Transactions.ToListAsync();
             return _mapper.Map<IEnumerable<TransactionDTO>>(transactions);
+        }
+
+        public async Task<IEnumerable<TransactionDTO>> GetTerminalTransactions(string merchantId, string terminalId)
+        {
+            var terminalTransaction = await _context.Terminals.Where(t => t.merchant.MerchantId== merchantId && t.TerminalId == terminalId).ToListAsync();
+            return _mapper.Map<IEnumerable<TransactionDTO>>(terminalTransaction);
         }
     }
 }
