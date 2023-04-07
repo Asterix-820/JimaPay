@@ -19,7 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Abstract\Implementation\" />
+    <ProjectReference Include="..\MerchantAPI.Repository\MerchantAPI.Repository.csproj" />
+    <ProjectReference Include="..\MerchantAPI.Services\MerchantAPI.Services.csproj" />
   </ItemGroup>
 
 </Project>

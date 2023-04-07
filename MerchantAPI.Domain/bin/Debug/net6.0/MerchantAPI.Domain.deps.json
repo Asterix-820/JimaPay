@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MerchantAPI.Domain/1.0.0": {
+        "runtime": {
+          "MerchantAPI.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MerchantAPI.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

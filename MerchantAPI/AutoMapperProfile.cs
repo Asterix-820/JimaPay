@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using MerchantAPI.DTO;
-using MerchantAPI.Model;
+using MerchantAPI.Common.DTO;
+using MerchantAPI.Domain.Entities;
 
 namespace MerchantAPI
 {

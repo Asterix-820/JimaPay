@@ -1,6 +1,6 @@
-﻿using MerchantAPI.DTO;
-using MerchantAPI.Interfaces;
-using Microsoft.AspNetCore.Http;
+﻿using MerchantAPI.Common.DTO;
+using MerchantAPI.Repository.Interfaces;
+using MerchantAPI.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MerchantAPI.Controllers
@@ -9,27 +9,30 @@ namespace MerchantAPI.Controllers
     [ApiController]
     public class MerchantController : ControllerBase
     {
-        private readonly IMerchantRepository _repository;
-        public MerchantController(IMerchantRepository repository)
+        private readonly IMerchantService _merchantService;
+        public MerchantController(IMerchantService merchantService)
         {
-            _repository= repository;
+           _merchantService = merchantService;
         }
+
         [HttpPost("merchant")]
         public async Task<IActionResult> CreateNewMerchant(MerchantDTO merchant)
         {
-            var output = await _repository.CreateNewMerchant(merchant);
-            return Ok(output);
+            _merchantService.CreateMerchant(merchant);
+            return Ok("Successful");
         }
+
         [HttpGet("merchant")]
         public async Task<IActionResult>GetMerchantById(string merchantId)
         {
-            var output = await _repository.GetMerchantById(merchantId);
+            var output = await _merchantService.GetMerchantById(merchantId);
             return Ok(output);
         }
+
         [HttpGet("merchants")]
         public async Task<IActionResult> GetAllMerchants()
         {
-            var output = await _repository.GetAllMerchants();
+            var output = await _merchantService.GetAllMerchants();
             return Ok(output);
         }
     }

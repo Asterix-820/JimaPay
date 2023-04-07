@@ -1,0 +1,12 @@
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Common\bin\Debug\net6.0\MerchantAPI.Common.deps.json
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Common\bin\Debug\net6.0\MerchantAPI.Common.dll
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Common\bin\Debug\net6.0\MerchantAPI.Common.pdb
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Common\obj\Debug\net6.0\MerchantAPI.Common.csproj.AssemblyReference.cache
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Common\obj\Debug\net6.0\MerchantAPI.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Common\obj\Debug\net6.0\MerchantAPI.Common.AssemblyInfoInputs.cache
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Common\obj\Debug\net6.0\MerchantAPI.Common.AssemblyInfo.cs
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Common\obj\Debug\net6.0\MerchantAPI.Common.csproj.CoreCompileInputs.cache
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Common\obj\Debug\net6.0\MerchantAPI.Common.dll
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Common\obj\Debug\net6.0\refint\MerchantAPI.Common.dll
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Common\obj\Debug\net6.0\MerchantAPI.Common.pdb
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Common\obj\Debug\net6.0\ref\MerchantAPI.Common.dll

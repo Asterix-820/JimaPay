@@ -1,6 +1,5 @@
-﻿using MerchantAPI.DTO;
-using MerchantAPI.Interfaces;
-using Microsoft.AspNetCore.Http;
+﻿using MerchantAPI.Common.DTO;
+using MerchantAPI.Repository.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MerchantAPI.Controllers
