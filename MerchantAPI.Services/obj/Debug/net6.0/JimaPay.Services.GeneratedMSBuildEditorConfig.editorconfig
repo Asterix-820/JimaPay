@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = JimaPay.Services
-build_property.ProjectDir = C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Services\
+build_property.ProjectDir = C:\Users\Decagon\Desktop\JimaPay\JimaPay\MerchantAPI.Services\
