@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Decagon\\Desktop\\JimaPay\\JimaPay\\MerchantAPI.Domain\\JimaPay.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Decagon\\Source\\Repos\\JimaPay\\MerchantAPI.Domain\\JimaPay.Domain.csproj",
       "projectName": "JimaPay.Domain",
-      "projectPath": "C:\\Users\\Decagon\\Desktop\\JimaPay\\JimaPay\\MerchantAPI.Domain\\JimaPay.Domain.csproj",
+      "projectPath": "C:\\Users\\Decagon\\Source\\Repos\\JimaPay\\MerchantAPI.Domain\\JimaPay.Domain.csproj",
       "packagesPath": "C:\\Users\\Decagon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Decagon\\Desktop\\JimaPay\\JimaPay\\MerchantAPI.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Decagon\\Source\\Repos\\JimaPay\\MerchantAPI.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Decagon\\AppData\\Roaming\\NuGet\\NuGet.Config",

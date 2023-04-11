@@ -17,3 +17,22 @@ C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Repository\obj\
 C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Repository\obj\Debug\net6.0\JimaPay.Repository.pdb
 C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Repository\obj\Debug\net6.0\JimaPay.Repository.genruntimeconfig.cache
 C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Repository\obj\Debug\net6.0\ref\JimaPay.Repository.dll
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\bin\Debug\net6.0\JimaPay.Repository.deps.json
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\bin\Debug\net6.0\JimaPay.Repository.runtimeconfig.json
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\bin\Debug\net6.0\JimaPay.Repository.dll
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\bin\Debug\net6.0\JimaPay.Repository.pdb
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\bin\Debug\net6.0\JimaPay.Common.dll
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\bin\Debug\net6.0\JimaPay.Domain.dll
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\bin\Debug\net6.0\JimaPay.Common.pdb
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\bin\Debug\net6.0\JimaPay.Domain.pdb
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\obj\Debug\net6.0\JimaPay.Repository.csproj.AssemblyReference.cache
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\obj\Debug\net6.0\JimaPay.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\obj\Debug\net6.0\JimaPay.Repository.AssemblyInfoInputs.cache
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\obj\Debug\net6.0\JimaPay.Repository.AssemblyInfo.cs
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\obj\Debug\net6.0\JimaPay.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\obj\Debug\net6.0\JimaPay.Repository.csproj.CopyComplete
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\obj\Debug\net6.0\JimaPay.Repository.dll
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\obj\Debug\net6.0\refint\JimaPay.Repository.dll
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\obj\Debug\net6.0\JimaPay.Repository.pdb
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\obj\Debug\net6.0\JimaPay.Repository.genruntimeconfig.cache
+C:\Users\Decagon\Source\Repos\JimaPay\MerchantAPI.Repository\obj\Debug\net6.0\ref\JimaPay.Repository.dll
