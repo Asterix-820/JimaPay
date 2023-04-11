@@ -11,6 +11,10 @@ namespace MerchantAPI.Domain.Entities
         public string CardType { get; set; }
         public string RRN { get; set; }
         [ForeignKey("TerminalId")]
+        public string TerminalId;
         public Terminal terminal { get; set; }
+        [ForeignKey("MerchantId")]
+        public string MerchantId;
+        public Merchant merchant { get; set; }
     }
 }

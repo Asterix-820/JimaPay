@@ -15,7 +15,7 @@ namespace MerchantAPI.Controllers
         }
 
         [HttpPost("merchant")]
-        public async Task<IActionResult> CreateNewMerchant(MerchantDTO merchant)
+        public async Task<IActionResult> CreateMerchant(MerchantDTO merchant)
         {
             _merchantService.CreateMerchant(merchant);
             return Ok("Successful");

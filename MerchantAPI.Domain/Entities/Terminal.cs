@@ -11,6 +11,7 @@ namespace MerchantAPI.Domain.Entities
         public string Location { get; set; }
         public ICollection<Transactions> Transactions { get; set; }
         [ForeignKey("MerchantId")]
+        public string MerchantId;
         public Merchant merchant { get; set; }
     }
 }

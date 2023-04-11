@@ -16,7 +16,6 @@ namespace MerchantAPI.Repository.Implementations
         public async Task<Merchant> GetMerchantById(string id)
         {
              return  await _context.Merchants.FirstOrDefaultAsync(x => x.MerchantId == id);
-           
         }
     }
 }

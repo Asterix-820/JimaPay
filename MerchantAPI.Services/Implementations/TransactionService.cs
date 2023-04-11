@@ -1,23 +1,62 @@
-﻿using MerchantAPI.Common.DTO;
+﻿using AutoMapper;
+using MerchantAPI.Common.DTO;
+using MerchantAPI.Domain.Entities;
+using MerchantAPI.Repository.Implementations;
+using MerchantAPI.Repository.Interfaces;
 using MerchantAPI.Services.Interfaces;
 
 namespace MerchantAPI.Services.Implementations
 {
     public class TransactionService : ITransactionService
     {
-        public Task<int> CreateTransaction(TransactionDTO transaction)
+
+        private readonly ITransactionRepository _transactionRepository;
+        private readonly IMapper _mapper;
+        public TransactionService(ITransactionRepository transactionRepository, IMapper mapper)
         {
-            throw new NotImplementedException();
+            _transactionRepository = transactionRepository;
+            _mapper = mapper;
+        }
+        public void CreateTransaction(TransactionDTO transaction)
+        {
+            var transactionEntity = _mapper.Map<Transactions>(transaction);
+            _transactionRepository.Create(transactionEntity);
         }
 
-        public Task<TransactionDTO> GetTransaction(int id)
+        public async Task<IEnumerable<TransactionDTO>> GetAllTransactions()
         {
-            throw new NotImplementedException();
+            var transaction = await _transactionRepository.GetAll();
+            var mappedTransactions = _mapper.Map<IEnumerable<TransactionDTO>>(transaction);
+            return mappedTransactions;
         }
 
-        public Task<IEnumerable<TransactionDTO>> GetTransactions()
+        public async Task<TransactionDTO> GetTransactionById(string id)
         {
-            throw new NotImplementedException();
+            var transaction = await _transactionRepository.GetTransactionById(id);
+
+            if (transaction != null)
+            {
+                var transactionEntity = _mapper.Map<TransactionDTO>(transaction);
+                return transactionEntity;
+            }
+            throw new Exception("Transaction not found");
+        }
+
+        public void UpdateTransaction(TransactionDTO transaction)
+        {
+            var transactionEntity = _mapper.Map<Transactions>(transaction);
+            _transactionRepository.Update(transactionEntity);
+        }
+
+        public async Task DeleteTransaction(string id)
+        {
+            var transaction = await _transactionRepository.GetTransactionById(id);
+
+            if (transaction != null)
+            {
+                _transactionRepository.Delete(transaction);
+            }
+            throw new Exception("Requested Transaction not found");
         }
     }
 }

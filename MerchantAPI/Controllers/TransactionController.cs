@@ -1,5 +1,6 @@
 ﻿using MerchantAPI.Common.DTO;
 using MerchantAPI.Repository.Interfaces;
+using MerchantAPI.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MerchantAPI.Controllers
@@ -8,27 +9,30 @@ namespace MerchantAPI.Controllers
     [ApiController]
     public class TransactionController : ControllerBase
     {
-        private readonly ITransactionRepository _repository;
-        public TransactionController(ITransactionRepository repository)
+        private readonly ITransactionService _transactionService;
+        public TransactionController(ITransactionService transactionService)
         {
-            _repository = repository;
+            _transactionService = transactionService;
         }
+
         [HttpPost("transaction")]
-        public async Task<IActionResult> CreateTransaction(TransactionDTO transaction, string merchantId)
+        public async Task<IActionResult> CreateTransaction(TransactionDTO transaction)
         {
-            var output = await _repository.CreateTransaction(transaction, merchantId);
-            return Ok(output);
+            _transactionService.CreateTransaction(transaction);
+            return Ok("Successful");
         }
+
         [HttpGet("transaction")]
-        public async Task<IActionResult> GetTerminalTransaction(string merchantId, string terminalId)
+        public async Task<IActionResult> GetTransactionById(string transactionId)
         {
-            var output = await _repository.GetTerminalTransactions(merchantId, terminalId);
+            var output = await _transactionService.GetTransactionById(transactionId);
             return Ok(output);
         }
+
         [HttpGet("transactions")]
         public async Task<IActionResult> GetAllTransactions()
         {
-            var output = await _repository.GetAllTransactions();
+            var output = await _transactionService.GetAllTransactions();
             return Ok(output);
         }
     }

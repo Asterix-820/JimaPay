@@ -1,5 +1,8 @@
 ﻿using MerchantAPI.Common.DTO;
+using MerchantAPI.Domain.Entities;
 using MerchantAPI.Repository.Interfaces;
+using MerchantAPI.Services.Implementations;
+using MerchantAPI.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MerchantAPI.Controllers
@@ -8,27 +11,30 @@ namespace MerchantAPI.Controllers
     [ApiController]
     public class TerminalController : ControllerBase
     {
-        private readonly ITerminalRepository _repository;
-        public TerminalController(ITerminalRepository repository)
+        private readonly ITerminalService _terminalService;
+        public TerminalController(ITerminalService terminalService)
         {
-            _repository = repository;
+            _terminalService = terminalService;
         }
+
         [HttpPost("terminal")]
-        public async Task<IActionResult> CreateTerminal(TerminalDTO terminal, string merchantId)
+        public async Task<IActionResult> CreateTerminal(TerminalDTO terminal)
         {
-            var output = await _repository.CreateTerminal(terminal, merchantId);
-            return Ok(output);
+            _terminalService.CreateTerminal(terminal);
+            return Ok("Successful");
         }
+
         [HttpGet("terminal")]
-        public async Task<IActionResult> GetMerchantTerminal(string merchantId)
+        public async Task<IActionResult> GetTerminalById(string terminalId)
         {
-            var output = await _repository.GetMerchantTerminal(merchantId);
+            var output = await _terminalService.GetTerminalById(terminalId);
             return Ok(output);
         }
+
         [HttpGet("terminals")]
         public async Task<IActionResult> GetAllTerminals()
         {
-            var output = await _repository.GetAllTerminals();
+            var output = await _terminalService.GetAllTerminals();
             return Ok(output);
         }
     }

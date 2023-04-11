@@ -1,12 +1,11 @@
 ﻿using MerchantAPI.Common.DTO;
+using MerchantAPI.Domain.Entities;
 
 namespace MerchantAPI.Repository.Interfaces
 {
-    public interface ITransactionRepository
+    public interface ITransactionRepository : IGenericRepository<Transactions>
     {
-        Task<IEnumerable<TransactionDTO>> GetAllTransactions();
-        Task<TransactionDTO> GetTransactionById(string id);
-        Task<string> CreateTransaction(TransactionDTO transaction, string merchantId);
-        Task<IEnumerable<TransactionDTO>> GetTerminalTransactions(string merchantId, string terminalId);
+        Task<Transactions> GetTransactionById(string id);
+        Task<IEnumerable<Transactions>> GetTerminalTransactions(string merchantId, string terminalId);
     }
 }
