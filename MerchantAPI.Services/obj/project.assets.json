@@ -1063,41 +1063,41 @@
           }
         }
       },
-      "MerchantAPI.Common/1.0.0": {
+      "JimaPay.Common/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/MerchantAPI.Common.dll": {}
+          "bin/placeholder/JimaPay.Common.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MerchantAPI.Common.dll": {}
+          "bin/placeholder/JimaPay.Common.dll": {}
         }
       },
-      "MerchantAPI.Domain/1.0.0": {
+      "JimaPay.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/MerchantAPI.Domain.dll": {}
+          "bin/placeholder/JimaPay.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MerchantAPI.Domain.dll": {}
+          "bin/placeholder/JimaPay.Domain.dll": {}
         }
       },
-      "MerchantAPI.Repository/1.0.0": {
+      "JimaPay.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "12.0.1",
-          "MerchantAPI.Common": "1.0.0",
-          "MerchantAPI.Domain": "1.0.0",
+          "JimaPay.Common": "1.0.0",
+          "JimaPay.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.4"
         },
         "compile": {
-          "bin/placeholder/MerchantAPI.Repository.dll": {}
+          "bin/placeholder/JimaPay.Repository.dll": {}
         },
         "runtime": {
-          "bin/placeholder/MerchantAPI.Repository.dll": {}
+          "bin/placeholder/JimaPay.Repository.dll": {}
         }
       }
     }
@@ -3285,26 +3285,26 @@
         "version.txt"
       ]
     },
-    "MerchantAPI.Common/1.0.0": {
+    "JimaPay.Common/1.0.0": {
       "type": "project",
-      "path": "../MerchantAPI.Common/MerchantAPI.Common.csproj",
-      "msbuildProject": "../MerchantAPI.Common/MerchantAPI.Common.csproj"
+      "path": "../MerchantAPI.Common/JimaPay.Common.csproj",
+      "msbuildProject": "../MerchantAPI.Common/JimaPay.Common.csproj"
     },
-    "MerchantAPI.Domain/1.0.0": {
+    "JimaPay.Domain/1.0.0": {
       "type": "project",
-      "path": "../MerchantAPI.Domain/MerchantAPI.Domain.csproj",
-      "msbuildProject": "../MerchantAPI.Domain/MerchantAPI.Domain.csproj"
+      "path": "../MerchantAPI.Domain/JimaPay.Domain.csproj",
+      "msbuildProject": "../MerchantAPI.Domain/JimaPay.Domain.csproj"
     },
-    "MerchantAPI.Repository/1.0.0": {
+    "JimaPay.Repository/1.0.0": {
       "type": "project",
-      "path": "../MerchantAPI.Repository/MerchantAPI.Repository.csproj",
-      "msbuildProject": "../MerchantAPI.Repository/MerchantAPI.Repository.csproj"
+      "path": "../MerchantAPI.Repository/JimaPay.Repository.csproj",
+      "msbuildProject": "../MerchantAPI.Repository/JimaPay.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "MerchantAPI.Common >= 1.0.0",
-      "MerchantAPI.Repository >= 1.0.0"
+      "JimaPay.Common >= 1.0.0",
+      "JimaPay.Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3313,9 +3313,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Services\\MerchantAPI.Services.csproj",
-      "projectName": "MerchantAPI.Services",
-      "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Services\\MerchantAPI.Services.csproj",
+      "projectUniqueName": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Services\\JimaPay.Services.csproj",
+      "projectName": "JimaPay.Services",
+      "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Services\\JimaPay.Services.csproj",
       "packagesPath": "C:\\Users\\Decagon\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Services\\obj\\",
       "projectStyle": "PackageReference",
@@ -3334,11 +3334,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\MerchantAPI.Common.csproj": {
-              "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\MerchantAPI.Common.csproj"
+            "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\JimaPay.Common.csproj": {
+              "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\JimaPay.Common.csproj"
             },
-            "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Repository\\MerchantAPI.Repository.csproj": {
-              "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Repository\\MerchantAPI.Repository.csproj"
+            "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Repository\\JimaPay.Repository.csproj": {
+              "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Repository\\JimaPay.Repository.csproj"
             }
           }
         }

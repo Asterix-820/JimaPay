@@ -4,12 +4,12 @@
     "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Services\\MerchantAPI.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\MerchantAPI.Common.csproj": {
+    "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\JimaPay.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\MerchantAPI.Common.csproj",
-        "projectName": "MerchantAPI.Common",
-        "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\MerchantAPI.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\JimaPay.Common.csproj",
+        "projectName": "JimaPay.Common",
+        "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\JimaPay.Common.csproj",
         "packagesPath": "C:\\Users\\Decagon\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\obj\\",
         "projectStyle": "PackageReference",
@@ -59,12 +59,12 @@
         }
       }
     },
-    "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Domain\\MerchantAPI.Domain.csproj": {
+    "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Domain\\JimaPay.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Domain\\MerchantAPI.Domain.csproj",
-        "projectName": "MerchantAPI.Domain",
-        "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Domain\\MerchantAPI.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Domain\\JimaPay.Domain.csproj",
+        "projectName": "JimaPay.Domain",
+        "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Domain\\JimaPay.Domain.csproj",
         "packagesPath": "C:\\Users\\Decagon\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -114,12 +114,12 @@
         }
       }
     },
-    "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Repository\\MerchantAPI.Repository.csproj": {
+    "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Repository\\JimaPay.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Repository\\MerchantAPI.Repository.csproj",
-        "projectName": "MerchantAPI.Repository",
-        "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Repository\\MerchantAPI.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Repository\\JimaPay.Repository.csproj",
+        "projectName": "JimaPay.Repository",
+        "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Repository\\JimaPay.Repository.csproj",
         "packagesPath": "C:\\Users\\Decagon\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Repository\\obj\\",
         "projectStyle": "PackageReference",
@@ -138,11 +138,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\MerchantAPI.Common.csproj": {
-                "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\MerchantAPI.Common.csproj"
+              "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\JimaPay.Common.csproj": {
+                "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\JimaPay.Common.csproj"
               },
-              "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Domain\\MerchantAPI.Domain.csproj": {
-                "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Domain\\MerchantAPI.Domain.csproj"
+              "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Domain\\JimaPay.Domain.csproj": {
+                "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Domain\\JimaPay.Domain.csproj"
               }
             }
           }
@@ -220,11 +220,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\MerchantAPI.Common.csproj": {
-                "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\MerchantAPI.Common.csproj"
+              "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\JimaPay.Common.csproj": {
+                "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\JimaPay.Common.csproj"
               },
-              "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Repository\\MerchantAPI.Repository.csproj": {
-                "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Repository\\MerchantAPI.Repository.csproj"
+              "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Repository\\JimaPay.Repository.csproj": {
+                "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Repository\\JimaPay.Repository.csproj"
               }
             }
           }

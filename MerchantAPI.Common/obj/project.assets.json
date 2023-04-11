@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\MerchantAPI.Common.csproj",
-      "projectName": "MerchantAPI.Common",
-      "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\MerchantAPI.Common.csproj",
+      "projectUniqueName": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\JimaPay.Common.csproj",
+      "projectName": "JimaPay.Common",
+      "projectPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\JimaPay.Common.csproj",
       "packagesPath": "C:\\Users\\Decagon\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,5 +1,4 @@
 ﻿using MerchantAPI.Common.DTO;
-using MerchantAPI.Repository.Interfaces;
 using MerchantAPI.Services.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 

@@ -4,7 +4,6 @@ using MerchantAPI.Repository.Implementations;
 using MerchantAPI.Repository.Interfaces;
 using MerchantAPI.Services.Implementations;
 using MerchantAPI.Services.Interfaces;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -1,14 +1,7 @@
-﻿using AutoMapper;
-using MerchantAPI.Common.DTO;
-using MerchantAPI.Domain.Entities;
+﻿using MerchantAPI.Domain.Entities;
 using MerchantAPI.Repository.Data;
 using MerchantAPI.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MerchantAPI.Repository.Implementations
 {

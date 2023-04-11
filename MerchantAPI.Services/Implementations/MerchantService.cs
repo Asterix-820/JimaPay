@@ -3,7 +3,6 @@ using MerchantAPI.Common.DTO;
 using MerchantAPI.Domain.Entities;
 using MerchantAPI.Repository.Interfaces;
 using MerchantAPI.Services.Interfaces;
-using Microsoft.EntityFrameworkCore;
 
 namespace MerchantAPI.Services.Implementations
 {

@@ -1,0 +1,12 @@
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Domain\bin\Debug\net6.0\JimaPay.Domain.deps.json
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Domain\bin\Debug\net6.0\JimaPay.Domain.dll
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Domain\bin\Debug\net6.0\JimaPay.Domain.pdb
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Domain\obj\Debug\net6.0\JimaPay.Domain.csproj.AssemblyReference.cache
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Domain\obj\Debug\net6.0\JimaPay.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Domain\obj\Debug\net6.0\JimaPay.Domain.AssemblyInfoInputs.cache
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Domain\obj\Debug\net6.0\JimaPay.Domain.AssemblyInfo.cs
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Domain\obj\Debug\net6.0\JimaPay.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Domain\obj\Debug\net6.0\JimaPay.Domain.dll
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Domain\obj\Debug\net6.0\refint\JimaPay.Domain.dll
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Domain\obj\Debug\net6.0\JimaPay.Domain.pdb
+C:\Users\Decagon\Desktop\My Projects\MerchantAPIDemo\MerchantAPI.Domain\obj\Debug\net6.0\ref\JimaPay.Domain.dll

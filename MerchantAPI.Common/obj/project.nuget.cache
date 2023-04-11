@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s4uUokcjdTx9B/knajQQKT6E+ysPgzLt3f2bLPAecANjLvniWxnfP5Yo3MX7Wt5lZe6gMhgDUPsEmon+MHOXgA==",
+  "dgSpecHash": "exvlE16NEI6qqR3/gzTZ5XvGk+vKY5kmzbVAvihct/0M/LACLeIndMkfiy2Tab8v1rHrfMgtCDI5OkLkOOeq9g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\MerchantAPI.Common.csproj",
+  "projectFilePath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Common\\JimaPay.Common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

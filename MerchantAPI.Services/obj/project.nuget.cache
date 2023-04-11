@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B/Lkn+9UmsNQijy7zYCZJZJxld68LiFY5FgCi9znqCVxnRMp6GygQ6MJZr5Izz0jHaSpdCWselX6L8RAcWBmWA==",
+  "dgSpecHash": "QnqysJz0OFNRHu33V79evStZ2XYb78Qr+87ShOfylFvkGjNVxBzHMAOPlMcYu0QeU/bYDFuSdaFFavIfyBLjoQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Services\\MerchantAPI.Services.csproj",
+  "projectFilePath": "C:\\Users\\Decagon\\Desktop\\My Projects\\MerchantAPIDemo\\MerchantAPI.Services\\JimaPay.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Decagon\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Decagon\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
